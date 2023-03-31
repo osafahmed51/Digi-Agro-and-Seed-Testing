@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digiagro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sssaaaa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sssaaaa"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DIGIAGRO">
+        <activity
+            android:name=".LandAttributes"
+            android:exported="false" />
+        <activity
+            android:name=".banana"
+            android:exported="false" />
+        <activity
+            android:name=".crops"
+            android:exported="false" />
+        <activity
+            android:name=".treees"
+            android:exported="false" />
+        <activity
+            android:name=".vegs"
+            android:exported="false" />
+        <activity
+            android:name=".fruits"
+            android:exported="false" />
+        <activity
+            android:name=".seeAttributes"
+            android:exported="false" />
+        <activity
+            android:name=".records"
+            android:exported="false" />
+        <activity
+            android:name=".expfarmer"
+            android:exported="false" />
+        <activity
+            android:name=".webView1"
+            android:exported="false" />
+        <activity
+            android:name=".calc"
+            android:exported="false" />
+        <activity
+            android:name=".webView"
+            android:exported="false" />
+        <activity
+            android:name=".seedcamera"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".map"
+            android:exported="false" />
+        <activity
+            android:name=".land"
+            android:exported="false" />
+        <activity
+            android:name=".seed"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard2"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

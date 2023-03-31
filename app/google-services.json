@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "807980391432",
+    "firebase_url": "https://digi-agro-ea0d8-default-rtdb.firebaseio.com",
+    "project_id": "digi-agro-ea0d8",
+    "storage_bucket": "digi-agro-ea0d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807980391432:android:d7e95556448d8003ec45bd",
+        "android_client_info": {
+          "package_name": "com.example.digi_agro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807980391432-h7ecbr30jgc2001cduh01cpm6o6ofkt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzh6xCsLc0IJuTAzwaUThUE5r04bfPvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807980391432-h7ecbr30jgc2001cduh01cpm6o6ofkt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

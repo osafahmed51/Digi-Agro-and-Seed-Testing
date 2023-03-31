@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".records"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/amarante"
+        android:layout_margin="12dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/enter_data"
+        android:textAlignment="center"
+        android:textColor="#689F38"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/crop"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:fontFamily="@font/nova_square"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/quantity"
+        android:inputType="textNoSuggestions"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/nova_square"
+        android:layout_marginLeft="10dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/amount_of_sold"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nova_square"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/year_of_sold"
+        android:fontFamily="@font/nova_square"
+        android:inputType="number"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:layout_gravity="center"
+        android:text="@string/add_crop"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/nova_square"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="@string/update"
+        android:fontFamily="@font/nova_square"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dlt"
+        android:layout_gravity="center"
+        android:text="@string/delete"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nova_square"
+        android:layout_marginStart="5dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:fontFamily="@font/nova_square"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_gravity="center"
+        android:text="@string/view_list"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="5dp"/>
+</LinearLayout>
